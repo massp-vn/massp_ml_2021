@@ -8,7 +8,7 @@
     "build": "bash ./build.sh"
   },
   "devDependencies": {
-    "gulp": "^3.8.10",
+    "gulp": "^3.9.1",
     "gulp-stylus": "^2.0.0",
     "gulp-util": "^3.0.3",
     "handlebars": "^4.0.6",
