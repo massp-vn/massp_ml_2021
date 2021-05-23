@@ -1,276 +1,288 @@
 -
   Title: Week 1
   Events:
-    2021-06-01:
+    2021-06-05:
       Label: Lecture
-#      Video: "https://youtu.be/U6M0m9c9_Js"
       Slides:
         - {Course Logistics: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/1a.course-logistics.pdf"}
-        - {Statistical Learning Theory: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/1b.intro-slt-riskdecomp.pdf"}
-        - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/1c.stoch-grad-descent.pdf"}
-      Notes:
-        - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/1-Lec-Check.pdf"}
-        - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/1-Lec-Check_sol.pdf"}
-      References:
-        - {"Bottou's SGD Tricks": "http://leon.bottou.org/papers/bottou-tricks-2012"}
-    2017-01-25:
-      Label: Lab
-#      Video: "https://www.youtube.com/watch?v=MEZiIfeqNNI"
+        - {Cấu trúc giài quyết vấn đề in Machine Learning}
+    2021-06-05:
+      Label: Lecture
       Slides:
-        - {Gradients and Directional Derivatives: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/1-gradients-Slides.pdf"}
-      Notes:
-        - {Gradients and Directional Derivatives: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/1-gradients-Notes_sol.pdf"}
-        - {Lab Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/1-Lab-Check.pdf"}
-        - {Lab Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/1-Lab-Check_sol.pdf"}
-#        - {Directional Derivatives and Approximation (Short): "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/directional-derivative.pdf"}
-      References:
-        - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
-        - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppC.d/IFEM.AppC.pdf"}
+        - {Review - Linear Algebra + ProbStats: }
+    2021-06-05:
+      Label: Lecture
+      Slides:
+        - {Train / Val / Test Set: }
+        - {Performance Metrics: }
+    2021-06-06:
+      Label: Lecture
+      Slides:
+        - {Review - Object Optimization + Loss functions + Distance and Norm: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/1-gradients-Slides.pdf"}
+        - {Review - Gradient Descent & Stochastic: }
+    2021-06-05:
+      Label: Lab
+      Slides:
+        - {Introduction to Machine Learning Model: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/1-gradients-Slides.pdf"}
+        - {Workshop: }
+    2021-06-05:
+      Label: Lab
+      Slides:
+        - {Coding Lab: }
 -
   Title: Week 2
   Events:
-    2017-01-31:
+    2021-06-11:
       Label: Lecture
       Slides:
-        - {Excess Risk Decomposition: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2a.excess-risk-decomposition.pdf"}
-        - {L1 and L2 regularization: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2b.L1L2-regularization.pdf"}
+        - {Linear Regression: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2a.excess-risk-decomposition.pdf"}
+        - {SVM: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2b.L1L2-regularization.pdf"}
       Notes:
-        - {PreLecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/2-PreLec-Check.pdf"}
-        - {PreLecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/2-PreLec-Check_sol.pdf"}
-        - {Completing the Square: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/completing-the-square.pdf"}
-        - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/2-Lec-Check.pdf"}
-        - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/2-Lec-Check_sol.pdf"}
       References:
-        - "HTF Ch. 3"
-        - {'Mairal, Bach, and Ponce on Sparse Modeling': "https://arxiv.org/pdf/1411.3230v2.pdf"}
-    2017-02-01:
+        - {"Andrew Ng's CS229 SVM Notes": "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
+        - "HTF 12.2.1 - 12.2.2"
+    2021-06-12:
+      Label: Lecture
+      Slides:
+        - {Overfitting + Regularization: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2a.excess-risk-decomposition.pdf"}
+    2021-06-12:
       Label: Lab
       Slides:
-        - {Directional Derivatives and Optima (Homework Hints): "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2.Lab.directional-derivatives.pdf"}
-      Notes:
-       
-      References:
-        - {'Bach et al on Optimization with Sparsity': "https://arxiv.org/pdf/1108.0775v2.pdf"}
+        - {Review of LinReg, LogReg, SVM: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2a.excess-risk-decomposition.pdf"}
+    2021-06-13:
+      Label: Lab
+      Slides:
+        - {Housing Price: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2a.excess-risk-decomposition.pdf"}
 
 -
   Title: Week 3
   Events:
-    2017-02-07:
+    2021-06-17:
       Label: Lecture
       Slides:
-        - {Grouping and Elastic Net: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/3a.elastic-net.pdf"} 
-        - {Loss Functions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/3b.loss-functions.pdf"}
+        - {Decision Tree: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Decision%20Trees.pdf"} 
       Notes:
-        - {Lasso and Elastic Net (ipynb): "https://github.com/davidrosenberg/mlcourse/blob/gh-pages/Notebooks/Lasso%20and%20Elastic%20Net/lasso_and_elastic_net.ipynb"}
       References:
-        - "HTF 3.4"
-    2017-02-08:
+    2021-06-19:
+      Label: Lecture
+      Slides:
+        - {Bagging và Random Forest: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Bagging%20-%20Random%20Forests.pdf"}
+      Notes:
+      References:
+    2021-06-20:
+      Label: Lecture
+      Slides:
+        - {Boosting & Gradient Boosting: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Boosting.ipynb"}
+      Notes:
+      References:
+    2021-06-20:
       Label: Lab
       Slides:
-        - {"Geometric Derivation of SVMs": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/3-SVM-Slides.pdf"}
+        - {Workshop - Tree based models: ""}
       Notes:
-        - {"Geometric Derivation of SVMs": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/3-SVM-Notes_sol.pdf"}
-        - {"Note on the Uniqueness of SVMs": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/UniquenessOfSVM.pdf"}
+      References:
+    2021-06-20:
+      Label: Guest Lecture
+      Slides:
+        - {Quant Trading}
+      Notes:
       References:
 -
   Title: Week 4
   Events:
-    2017-02-14:
+    2021-06-23:
       Label: Lecture
       Slides:
-        - {Convex Optimization: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4a.convex-optimization.pdf"}
-        - {Support Vector Machines: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
-      Notes:
-        - {Pre-lecture warmup for SVM and Lagrangians: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/svm-lecture-prep.pdf"}
-        - {Support Vector Machines (notes): "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/svm-notes.pdf"}
-        - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/convex-optimization.pdf"}
-        - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/4-Lec-Check.pdf"}
-        - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/4-Lec-Check_sol.pdf"}
-      References:
-        - {"Andrew Ng's CS229 SVM Notes": "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
-        - "HTF 12.2.1 - 12.2.2"
-    2017-02-15:
-      Label: Lab
-      Slides:
-        - {"Subgradients": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/4-Subgradients-Slides.pdf"}
-      Notes:
-        - {"Subgradients": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/4-Subgradients-Notes_sol.pdf"}
-        - {"Lab Concept Check Questions": "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/4-Lab-Check.pdf"}
-        - {"Lab Concept Check Solutions": "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/4-Lab-Check_sol.pdf"}
-      References:
-        - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
--
-  Title: Week 5
-  Events:
-    2017-02-21:
-      Label: Lecture
-      Slides:
-        - {SVMs and Complementary Slackness: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/5a.SVM-ComplementarySlackness.pdf"}
-        - {Intro to Kernel Methods: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/5b.kernel-methods-intro.pdf"}
-        
-      Notes:
-        - {Support Vector Machines (notes): "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/svm-notes.pdf"}
-        - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/convex-optimization.pdf"}
-      References:
-        - {"A Survey of Kernels for Structured Data": "http://homepages.rpi.edu/~bennek/class/mmld/papers/p49-gartner.pdf"}
-        - {"Andrew Ng's CS229 SVM Notes": "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
-        
-    2017-02-22:
-      Label: Lab
-      Slides:
-        - {"Kernels": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/5-Kernels-Slides.pdf"}
-      Notes:
-        - {Lab Concept Check Questions : "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/5-Lab-Check.pdf"}
-        - {Lab Concept Check Solutions : "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/5-Lab-Check_sol.pdf"}
--
-  Title: Week 6
-  Events:
-    2017-02-28:
-      Label: Lecture
-      Slides:
-        - {Kernel Methods Wrapup: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/6a.kernels-wrapup.pdf"}
-        - {Features: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/6b.features.pdf"}
-        
+        - {Neural Net - One Layer Perceptron: }
+        - {Backpropagaion: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
       Notes:
       References:
-        - "SSBD Chapter 16"
-        
-    2017-03-01:
-      Label: One-Hour Test
--
-  Title: Week 7
-  Events:
-    2017-03-07:
-      Label: Lecture
-      Slides:
-        - {Multiclass and Intro to Structured Prediction: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/7a.multiclass.pdf"}
-      Notes:
-        - {Lecture Concept Check Questions : "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/7-Lec-Check.pdf"}
-        - {Lecture Concept Check Solutions : "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/7-Lec-Check_sol.pdf"}
-      References:
-        - "SSBD Chapter 17"
-        - {In Defense of One-Vs-All Classification: "http://www.jmlr.org/papers/v5/rifkin04a.html"}
-        - {Reducing Multiclass to Binary: "http://www.jmlr.org/papers/volume1/allwein00a/allwein00a.pdf"} 
-    2017-03-08:
-      Label: Project Adviser Meetings
--
-  Title: Week 8
-  Events:
-    2017-03-21:
-      Label: Lecture
-      Slides:
-        - {Classification and Regression Trees: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/8a.trees.pdf"}
-      References:
-        - "JWHT 8.1"
-        - "HTF 9.2"
-    2017-03-22:
-      Label: Lab
-      Slides:
-        - {'Intro to the Bootstrap': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/8.Lab.bootstrap.pdf"}
-      References:
-        - "JWHT 5.2"
-        - "HTF 7.11"
--
-  Title: Week 9
-  Events:
-    2017-03-28:
-      Label: Lecture
-      Slides:
-        - {'Bagging and Random Forests': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/9a.bagging-random-forests.pdf"}
-        - {Adaboost: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/9b.adaboost.pdf"}
-      Notes:
-        - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/9-Lec-Check.pdf"}
-        - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/9-Lec-Check_sol.pdf"}
-      References:
-        - "JWHT 8.2"
-        - "HTF 8.7, 15, 10"
-        - {A Conversation with Jerry Friedman: "https://arxiv.org/pdf/1507.08502.pdf"}
-    2017-03-29:
-      Label: Lab
-      Slides:
-        - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/9-GBM-Slides.pdf"}
-      Notes:
-        - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/9-GBM-Notes.pdf"}
-        - {"gbm.py": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/gbm.py"}
--
-  Title: Week 10
-  Events:
-    2017-04-04:
-      Label: Lecture
-      Slides:
-        - {'Gradient Boosting (continued)': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/10a.gradient-boosting-continued.pdf"}
-        - {CitySense and CabSense: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/10b.citysense.pdf"}
-        - {Conditional Probability Models (1): "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/10c.conditional-probability-models.pdf"}
-      References:
-        - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
-        - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
-        - {XGBoost Paper: http://arxiv.org/abs/1603.02754}
-        - {"Bühlmann and Hothorn's Boosting Paper": https://projecteuclid.org/euclid.ss/1207580163}
-    2017-04-05:
-      Label: Lab
-      Slides:
-        - {"Conditional Probability Models (2)": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/10.Lab.conditional-probability-models.pdf"}
-      Notes:
-        - {"Exponential Distribution Example": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/conditional-exponential-distributions.pdf"}
-        - {Lab Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check.pdf"}
-        - {Lab Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check_sol.pdf"}
--
-  Title: Week 11
-  Events:
-    2017-04-11:
-      Label: Lecture
-      Slides:
-        - {'Bayesian Methods': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/11a.bayesian-methods.pdf"}
-        - {'Bayesian Linear Regression': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/11b.bayesian-regression.pdf"}
-      Notes:
-        - {"Proportionality Review": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/proportionality.pdf"}
-        - {"Multivariate Gaussians": "https://davidrosenberg.github.io/mlcourse/Archive/2017/in-prep/multivariate-gaussian.pdf"}
-        - {"Bayesian Linear Regression": "https://davidrosenberg.github.io/mlcourse/Archive/2017/in-prep/bayesian-regression.pdf"}
-        - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/11-Lec-Check.pdf"}
-        - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/11-Lec-Check_sol.pdf"}
-      References:
-        - "Barber 9.1, 18.1"
-        - "Bishop 3.3"
-    2017-04-12:
-      Label: Lab
-      Slides:
-        - {'Test Review': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/11.Lab.test-review.pdf"}
--
-  Title: Week 12
-  Events:
-    2017-04-18:
-      Label: Two-Hour Test
-    2017-04-19:
-      Label: Project Adviser Meetings
--
-  Title: Week 13
-  Events:
-    2017-04-25:
-      Label: Lecture
-      Slides:
-        - {'Principal Component Analysis': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/13-PCA-Slides.pdf"}
-        - {'k-Means Clustering': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/13.kmeans.pdf"}
-      Notes:
-        - {'Principal Component Analysis': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/13-PCA-Notes_sol.pdf"}
-      References:
-        - "Jolliffe, Principal Component Analysis"
-        - "HTF, 3.5.1"
-        - "HTF, 13.2.1"
-    2017-04-26:
-      Label: Lab
-      Slides:
-        - {'Gaussian Mixture Models': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/13.lab.mixture-models.pdf"}
--
-  Title: Week 14
-  Events:
-    2017-05-02:
-      Label: Lecture
-      Slides:
-        - {'General EM Algorithm': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/14a.EM-algorithm.pdf"}
-        - {'Introduction to Neural Networks': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/14b.neural-networks.pdf"}
-        - {'Next Steps': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/14c.next-steps.pdf"}
 
+    2021-06-25:
+      Label: Lecture
+      Slides:
+        - {Convolutional Neural Net: }
+      Notes:
       References:
-        - "Bishop 9.2,9.3"
-    2017-05-03:
-      Label: Project Adviser Meetings
+        
+    2021-06-26:
+      Label: Lab
+      Slides:
+        - {CNN: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/labs/Lab_CNN.ipynb"}
+      Notes:
+      References:
+# -
+#   Title: Week 5
+#   Events:
+#     2017-02-21:
+#       Label: Lecture
+#       Slides:
+#         - {SVMs and Complementary Slackness: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/5a.SVM-ComplementarySlackness.pdf"}
+#         - {Intro to Kernel Methods: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/5b.kernel-methods-intro.pdf"}
+        
+#       Notes:
+#         - {Support Vector Machines (notes): "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/svm-notes.pdf"}
+#         - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/convex-optimization.pdf"}
+#       References:
+#         - {"A Survey of Kernels for Structured Data": "http://homepages.rpi.edu/~bennek/class/mmld/papers/p49-gartner.pdf"}
+#         - {"Andrew Ng's CS229 SVM Notes": "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
+        
+#     2017-02-22:
+#       Label: Lab
+#       Slides:
+#         - {"Kernels": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/5-Kernels-Slides.pdf"}
+#       Notes:
+#         - {Lab Concept Check Questions : "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/5-Lab-Check.pdf"}
+#         - {Lab Concept Check Solutions : "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/5-Lab-Check_sol.pdf"}
+# -
+#   Title: Week 6
+#   Events:
+#     2017-02-28:
+#       Label: Lecture
+#       Slides:
+#         - {Kernel Methods Wrapup: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/6a.kernels-wrapup.pdf"}
+#         - {Features: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/6b.features.pdf"}
+        
+#       Notes:
+#       References:
+#         - "SSBD Chapter 16"
+        
+#     2017-03-01:
+#       Label: One-Hour Test
+# -
+#   Title: Week 7
+#   Events:
+#     2017-03-07:
+#       Label: Lecture
+#       Slides:
+#         - {Multiclass and Intro to Structured Prediction: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/7a.multiclass.pdf"}
+#       Notes:
+#         - {Lecture Concept Check Questions : "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/7-Lec-Check.pdf"}
+#         - {Lecture Concept Check Solutions : "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/7-Lec-Check_sol.pdf"}
+#       References:
+#         - "SSBD Chapter 17"
+#         - {In Defense of One-Vs-All Classification: "http://www.jmlr.org/papers/v5/rifkin04a.html"}
+#         - {Reducing Multiclass to Binary: "http://www.jmlr.org/papers/volume1/allwein00a/allwein00a.pdf"} 
+#     2017-03-08:
+#       Label: Project Adviser Meetings
+# -
+#   Title: Week 8
+#   Events:
+#     2017-03-21:
+#       Label: Lecture
+#       Slides:
+#         - {Classification and Regression Trees: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/8a.trees.pdf"}
+#       References:
+#         - "JWHT 8.1"
+#         - "HTF 9.2"
+#     2017-03-22:
+#       Label: Lab
+#       Slides:
+#         - {'Intro to the Bootstrap': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/8.Lab.bootstrap.pdf"}
+#       References:
+#         - "JWHT 5.2"
+#         - "HTF 7.11"
+# -
+#   Title: Week 9
+#   Events:
+#     2017-03-28:
+#       Label: Lecture
+#       Slides:
+#         - {'Bagging and Random Forests': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/9a.bagging-random-forests.pdf"}
+#         - {Adaboost: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/9b.adaboost.pdf"}
+#       Notes:
+#         - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/9-Lec-Check.pdf"}
+#         - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/9-Lec-Check_sol.pdf"}
+#       References:
+#         - "JWHT 8.2"
+#         - "HTF 8.7, 15, 10"
+#         - {A Conversation with Jerry Friedman: "https://arxiv.org/pdf/1507.08502.pdf"}
+#     2017-03-29:
+#       Label: Lab
+#       Slides:
+#         - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/9-GBM-Slides.pdf"}
+#       Notes:
+#         - {"Gradient Boosting": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/9-GBM-Notes.pdf"}
+#         - {"gbm.py": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/gbm.py"}
+# -
+#   Title: Week 10
+#   Events:
+#     2017-04-04:
+#       Label: Lecture
+#       Slides:
+#         - {'Gradient Boosting (continued)': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/10a.gradient-boosting-continued.pdf"}
+#         - {CitySense and CabSense: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/10b.citysense.pdf"}
+#         - {Conditional Probability Models (1): "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/10c.conditional-probability-models.pdf"}
+#       References:
+#         - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
+#         - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
+#         - {XGBoost Paper: http://arxiv.org/abs/1603.02754}
+#         - {"Bühlmann and Hothorn's Boosting Paper": https://projecteuclid.org/euclid.ss/1207580163}
+#     2017-04-05:
+#       Label: Lab
+#       Slides:
+#         - {"Conditional Probability Models (2)": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/10.Lab.conditional-probability-models.pdf"}
+#       Notes:
+#         - {"Exponential Distribution Example": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/conditional-exponential-distributions.pdf"}
+#         - {Lab Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check.pdf"}
+#         - {Lab Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/10-Lab-Check_sol.pdf"}
+# -
+#   Title: Week 11
+#   Events:
+#     2017-04-11:
+#       Label: Lecture
+#       Slides:
+#         - {'Bayesian Methods': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/11a.bayesian-methods.pdf"}
+#         - {'Bayesian Linear Regression': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/11b.bayesian-regression.pdf"}
+#       Notes:
+#         - {"Proportionality Review": "https://davidrosenberg.github.io/mlcourse/Archive/2017/Notes/proportionality.pdf"}
+#         - {"Multivariate Gaussians": "https://davidrosenberg.github.io/mlcourse/Archive/2017/in-prep/multivariate-gaussian.pdf"}
+#         - {"Bayesian Linear Regression": "https://davidrosenberg.github.io/mlcourse/Archive/2017/in-prep/bayesian-regression.pdf"}
+#         - {Lecture Concept Check Questions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/11-Lec-Check.pdf"}
+#         - {Lecture Concept Check Solutions: "https://davidrosenberg.github.io/mlcourse/Archive/2017/ConceptChecks/11-Lec-Check_sol.pdf"}
+#       References:
+#         - "Barber 9.1, 18.1"
+#         - "Bishop 3.3"
+#     2017-04-12:
+#       Label: Lab
+#       Slides:
+#         - {'Test Review': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/11.Lab.test-review.pdf"}
+# -
+#   Title: Week 12
+#   Events:
+#     2017-04-18:
+#       Label: Two-Hour Test
+#     2017-04-19:
+#       Label: Project Adviser Meetings
+# -
+#   Title: Week 13
+#   Events:
+#     2017-04-25:
+#       Label: Lecture
+#       Slides:
+#         - {'Principal Component Analysis': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/13-PCA-Slides.pdf"}
+#         - {'k-Means Clustering': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/13.kmeans.pdf"}
+#       Notes:
+#         - {'Principal Component Analysis': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/13-PCA-Notes_sol.pdf"}
+#       References:
+#         - "Jolliffe, Principal Component Analysis"
+#         - "HTF, 3.5.1"
+#         - "HTF, 13.2.1"
+#     2017-04-26:
+#       Label: Lab
+#       Slides:
+#         - {'Gaussian Mixture Models': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/13.lab.mixture-models.pdf"}
+# -
+#   Title: Week 14
+#   Events:
+#     2017-05-02:
+#       Label: Lecture
+#       Slides:
+#         - {'General EM Algorithm': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/14a.EM-algorithm.pdf"}
+#         - {'Introduction to Neural Networks': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/14b.neural-networks.pdf"}
+#         - {'Next Steps': "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/14c.next-steps.pdf"}
+
+#       References:
+#         - "Bishop 9.2,9.3"
+#     2017-05-03:
+#       Label: Project Adviser Meetings
