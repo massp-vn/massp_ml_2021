@@ -12,8 +12,9 @@
     2021-06-06:
       Label: Lecture
       Slides:
-        - {Review - Object Optimization + Loss functions + Distance and Norm: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/1-gradients-Slides.pdf"}
-        - {Review - Gradient Descent & Stochastic: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
+        - {Review - Loss functions + Distance and Norm: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Lecture%201%20-%20Distance%20and%20norm.ipynb"}
+        - {Review - Optimization: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Lecture%205%20-%20Optimization%20in%20Machine%20Learning.ipynb"}
+        - {Review - Gradient Descent & Stochastic: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Lecture%206%20-%20Gradient%20Descent%20and%20Stochastic%20Gradient%20Descent.ipynb"}
         - {Introduction to Machine Learning Pipeline: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/labs/Massp_simple_pipeline.ipynb"}
         - {Workshop: }
 -
@@ -22,8 +23,9 @@
     2021-06-11:
       Label: Lecture
       Slides:
-        - {Linear Regression: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2a.excess-risk-decomposition.pdf"}
-        - {SVM: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2b.L1L2-regularization.pdf"}
+        - {Linear Regression: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Lecture%202%20-%20Linear%20Regression_fixed.ipynb"}
+        - {Logistic Regression: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Lecture%204%20-%20Logistic%20Regression.ipynb"}
+        - {SVM}
       Notes:
       References:
         - {"Andrew Ng's CS229 SVM Notes": "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
@@ -31,8 +33,7 @@
     2021-06-12:
       Label: Lecture
       Slides:
-        - {Overfitting + Regularization: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2a.excess-risk-decomposition.pdf"}
-        - {Review of Regression and SVM: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2a.excess-risk-decomposition.pdf"}  
+        - {Overfitting + Regularization: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Lecture%203%20-%20Lasso%2C%20Ridge%2C%20Elastic%20net%20Regression.ipynb"}
     2021-06-13:
       Label: Lab
       Slides:
