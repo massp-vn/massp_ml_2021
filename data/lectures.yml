@@ -5,7 +5,7 @@
       Label: Lecture + Lab
       Slides:
         - {Course Logistics: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/1a.course-logistics.pdf"}
-        - {Cấu trúc giài quyết vấn đề in Machine Learning}
+        - {Machine Learning Pipeline - Sendo Example: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/labs/Massp_Sendo_ML_pipeline.pdf"}
         - {Review - Linear Algebra + ProbStats: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
         - {Train / Val / Test Set: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
         - {Performance Metrics: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
@@ -14,7 +14,7 @@
       Slides:
         - {Review - Object Optimization + Loss functions + Distance and Norm: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/1-gradients-Slides.pdf"}
         - {Review - Gradient Descent & Stochastic: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
-        - {Introduction to Machine Learning Model: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Labs/1-gradients-Slides.pdf"}
+        - {Introduction to Machine Learning Pipeline: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/labs/Massp_simple_pipeline.ipynb"}
         - {Workshop: }
 -
   Title: Week 2
@@ -36,7 +36,7 @@
     2021-06-13:
       Label: Lab
       Slides:
-        - {Housing Price: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/2a.excess-risk-decomposition.pdf"}
+        - {Housing Price 1: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/labs/week_1_house_prices.ipynb"}
 
 -
   Title: Week 3
@@ -53,11 +53,14 @@
         - {Bagging và Random Forest: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Bagging%20-%20Random%20Forests.pdf"}
       Notes:
       References:
+        - "JWHT 8.2"
+        - "HTF 8.7, 15, 10"
+        - {A Conversation with Jerry Friedman: "https://arxiv.org/pdf/1507.08502.pdf"}
     2021-06-20:
-      Label: Lecture
+      Label: Lecture + Lab
       Slides:
         - {Boosting & Gradient Boosting: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Boosting.ipynb"}
-        - {Workshop - Tree based models: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
+        - {Housing Price 2: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/labs/week_2_house_prices.ipynb"}
         - {Guest Lecture-Quant Trading}
       Notes:
       References:
@@ -67,15 +70,15 @@
     2021-06-23:
       Label: Lecture
       Slides:
-        - {Neural Net - One Layer Perceptron: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
-        - {Backpropagaion: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
+        - {Neural Net - One Layer Perceptron: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/nn.pdf"}
+        - {Backpropagaion: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/nn.pdf"}
       Notes:
       References:
 
     2021-06-25:
       Label: Lecture
       Slides:
-        - {Convolutional Neural Net: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
+        - {Convolutional Neural Net: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/cnn.pdf"}
       Notes:
       References:
         
