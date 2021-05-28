@@ -4,8 +4,8 @@
     2021-06-05:
       Label: Lecture + Lab
       Slides:
-        - {Course Logistics: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/1a.course-logistics.pdf"}
-        - {Review - Linear Algebra + ProbStats: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
+        - {Course Logistics:}
+        - {Review - Linear Algebra + ProbStats:}
         
     2021-06-06:
       Label: Lecture
@@ -22,8 +22,8 @@
     2021-06-09:
       Label: Lecture
       Slides:
-        - {Train / Val / Test Set: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
-        - {Performance Metrics: "https://davidrosenberg.github.io/mlcourse/Archive/2017/Lectures/4b.SVM.pdf"}
+        - {Train / Val / Test Set:}
+        - {Performance Metrics:}
 -
   Title: Week 2
   Events:
