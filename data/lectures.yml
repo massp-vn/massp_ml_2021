@@ -5,7 +5,7 @@
       Label: Lecture + Lab
       Slides:
         - {Course Logistics:}
-        - {Review - Linear Algebra + ProbStats:}
+        - {Review - Linear Algebra + ProbStats: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Math-I-Linear-Algebra.pdf"}
         
     2021-06-06:
       Label: Lecture
@@ -22,8 +22,8 @@
     2021-06-09:
       Label: Lecture
       Slides:
-        - {Train / Val / Test Set:}
-        - {Performance Metrics:}
+        - {Train / Val / Test Set: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Train-Val-Test%20sets%20%26%20Performance%20metrics.pdf"}
+        - {Performance Metrics: "https://github.com/massp-vn/massp_2021/blob/main/MachineLearning_DataScience/For%20Students/lectures/Train-Val-Test%20sets%20%26%20Performance%20metrics.pdf"}
 -
   Title: Week 2
   Events:
